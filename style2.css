@@ -295,3 +295,39 @@ header .navigation .navigation-items a:hover:before{
     transition: 0.3s ease;
   }
 }
+
+/* Media Query For Mobile */
+@media only screen and (max-width: 430px) {
+  .home .content.active{
+    margin-top: 50px;
+  }
+
+  .home .content h1{
+    margin: 0px 0px 0px;
+  }
+  .home .content h1 span{
+    font-size: 0.5em;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+  
+  .home .content p{
+    font-size: 0.8em;
+    margin-left: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .home .content a{
+    font-size: 0.5em;
+    background: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin-left: 15px;
+    letter-spacing: 2px;    
+  }
+  
+  .home .content a:hover {
+    letter-spacing: 5px;
+  }
+}
+/* End Media Query For Mobile */
